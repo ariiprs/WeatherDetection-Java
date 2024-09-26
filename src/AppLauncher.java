@@ -8,6 +8,11 @@ public class AppLauncher {
             public void run() {
                 // menampilkan apps weather
                 new WeatherApp().setVisible(true);
+
+//                System.out.println(WeatherAppBack.getLocationData("Tangerang"));
+
+                System.out.println(WeatherAppBack.getCurrentTime());
+
             }
         });
     }
